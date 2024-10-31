@@ -54,7 +54,8 @@ app.loadJSONObject({
                   "rotateX": 0,
                   "rotateY": 0,
                   "rotateZ": 0,
-                  "scale": 15.6
+                  "scale": 15.6,
+                  "rotateO": "YXZ"
                 },
                 "model": 0
               }
