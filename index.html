@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>index</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <base target="_blank">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
@@ -145,6 +145,8 @@
 </div>
 
 <script>
+Q3D.Config.viewpoint = {lookAt:{x:15735887.352530412,y:5321720.157009799,z:0.0},pos:{x:15735887.352530412,y:5320161.938609943,z:1558.2183998562396}};
+Q3D.Config.localMode = true;
 Q3D.Config.AR.MND = 0.0;
 
 var container = document.getElementById("view"),
@@ -155,7 +157,7 @@ app.init(container);          // initialize viewer
 init();                       // initialization for mobile template (in mobile.js)
 
 // load the scene
-app.loadSceneFile("./data/index/scene.json", function (scene) {
+app.loadSceneFile("./data/index/scene.js", function (scene) {
   // scene file has been loaded
   app.start();
 
